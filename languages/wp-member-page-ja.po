@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-member-page-js\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.6.5\n"
+
+msgid "Please wait."
+msgstr "しばらくお待ち下さい。"
+
+msgid "Please enter the correct password."
+msgstr "正しい パスワード を記入してください。"
+
+msgid "Please enter alphanumeric password."
+msgstr " パスワード は半角英数字で入力してください。"
+
+msgid "Please enter the correct ID."
+msgstr "正しい ID を記入してください。"
+
+msgid "Please enter alphanumeric ID."
+msgstr " ID は半角英数字で入力してください。"
+
+msgid "ID you entered is already in use."
+msgstr "入力された ID は既に使われています。"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Add New Member"
+msgstr "会員を新規追加"
+
+msgid "Edit Member"
+msgstr "会員を編集"
+
+msgid "Add New"
+msgstr "新規追加"
+
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Select All"
+msgstr "すべて選択"
+
+msgid "Edit this item"
+msgstr "この項目を編集"
+
+msgid "Delete this item"
+msgstr "この項目を削除する"
+
+msgid "Member Pages"
+msgstr "会員ページ"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "View"
+msgstr "表示"

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>wp-member-page</Name>
+    <ProjectGuid>{7082f057-3991-4305-9b2a-0c7a845ef708}</ProjectGuid>
+    <RootNamespace>wp-member-page</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
+    <Compile Include="member-new.php" />
+    <Compile Include="wp-member-page.php" />
+    <Compile Include="wp-member-page.sln" />
+    <Compile Include=".svn\entries" />
+    <Compile Include=".svn\format" />
+    <Compile Include=".svn\wc.db" />
+    <Compile Include=".svn\pristine\0d\0de56f60eb1e21573c71885341b2122254140748.svn-base" />
+    <Compile Include=".svn\pristine\2f\2f691b99bb5c0f9f1280b93ce45d63dfe63aa3b7.svn-base" />
+    <Compile Include=".svn\pristine\3a\3aa3ed7583b3964e39dbccb37fe0666152a62e7b.svn-base" />
+    <Compile Include=".svn\pristine\3c\3c6aacced1fc7aafb32a048763ee5cab0272bb44.svn-base" />
+    <Compile Include=".svn\pristine\3c\3cfdd01db744a0d75bd4e3deb62b97e879250ae8.svn-base" />
+    <Compile Include=".svn\pristine\46\46b7c010de6c25b260d1254c388aaab81386fbd6.svn-base" />
+    <Compile Include=".svn\pristine\5b\5b3fe35db5ffa7406f77371c3eae79eb884b0313.svn-base" />
+    <Compile Include=".svn\pristine\8d\8d80de5b8773e01f781340e3f63d70883f0aec46.svn-base" />
+    <Compile Include=".svn\pristine\bf\bf79bd077a9b05dcbdf6ea933a3285ce573a2818.svn-base" />
+    <Compile Include=".svn\pristine\bf\bfc7067c9118b4d39962b8d766093089911077c1.svn-base" />
+    <Compile Include=".svn\pristine\c0\c0fcd7889045509e0e77e9981de09b9984faa720.svn-base" />
+    <Compile Include=".svn\pristine\d4\d4345aa6a35ac699413cf2df75ae5b21d82d27d4.svn-base" />
+    <Compile Include="controller\Controller.php" />
+    <Compile Include="controller\IndexController.php" />
+    <Compile Include="controller\MemberNewController.php" />
+    <Compile Include="dao\Dao.php" />
+    <Compile Include="dao\WpMemberPageDao.php" />
+    <Compile Include="entity\EntityList.php" />
+    <Compile Include="entity\WpMembersMessages.php" />
+    <Compile Include="entity\WpMembersPage.php" />
+    <Compile Include="util\WpMembersValidate.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controller" />
+    <Folder Include="dao" />
+    <Folder Include="entity" />
+    <Folder Include="languages" />
+    <Folder Include="util" />
+    <Folder Include=".svn" />
+    <Folder Include=".svn\pristine" />
+    <Folder Include=".svn\tmp" />
+    <Folder Include=".svn\pristine\0d" />
+    <Folder Include=".svn\pristine\2f" />
+    <Folder Include=".svn\pristine\3a" />
+    <Folder Include=".svn\pristine\3c" />
+    <Folder Include=".svn\pristine\46" />
+    <Folder Include=".svn\pristine\5b" />
+    <Folder Include=".svn\pristine\8d" />
+    <Folder Include=".svn\pristine\bf" />
+    <Folder Include=".svn\pristine\c0" />
+    <Folder Include=".svn\pristine\d4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="languages\wp-member-page-ja.mo" />
+    <Content Include="languages\wp-member-page-ja.po" />
+    <Content Include="readme.txt" />
+  </ItemGroup>
+</Project>
